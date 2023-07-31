@@ -1,0 +1,64 @@
+:root{
+    --primary-color:#112D4E;
+    --black-color:#525252;
+    --white-color:#F9F7F7;
+}
+body{
+        background: #525252;
+}
+.home{
+    background-color:#525252;
+}
+.about{
+    background-color: #525252;
+}
+.skills{
+    background: #525252;
+}
+.services{
+    background: #525252;
+}
+.contact{
+    background: #525252;
+}
+
+
+
+  /* Splash Screen */
+  .intro1 {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #161616;
+    transition: 1s;
+  }
+  
+  .logo-header1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+  }
+  
+  .logo1 {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+  }
+  
+  .logo1.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+  }
+  
+  .logo1.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+  }
